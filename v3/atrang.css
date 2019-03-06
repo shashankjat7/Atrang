@@ -1,0 +1,194 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	/*background-image: url("https://ak8.picdn.net/shutterstock/videos/17870218/thumb/1.jpg");*/
+	/*background-image: url("https://howtolucid.com/wp-content/uploads/2014/01/Dream-about-water.jpg")*/
+	background-size: cover;
+	/*background-position: top-right,bottom-left;*/
+	background-color: rgba(40, 55, 71, 0.1);
+}
+.container{
+	text-align: center;
+}
+.logo{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+}
+.navbar{
+	height: 70px;
+	background-color: black;
+	color: white;
+}
+.title{
+
+		margin-top: 35px;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 30px;
+		color: #FAFAFA;
+		
+}
+.intrologo{
+	margin-left: 100px;
+	margin-top: 200px;
+	idth: 500px;
+	height: 500px;
+	border-radius: 50%;
+	/*opacity: 0.5;*/
+}
+.info{
+	font-size: 25px;
+	margin-top: 8px;
+	font-family: 'Satisfy', cursive;
+}
+.row1{
+	background-image: url("https://harnessmagazine.com/wp-content/uploads/2017/01/image4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	/*height: 400px;*/
+	font-size: 20px;
+	color: white;
+	opacity: 0.9;
+	/*margin-bottom: 10px;*/
+}
+#homelogo{
+	margin-top: 150px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.headh2{
+	font-family: 'Orbitron', sans-serif;
+}
+.taglineh2{
+	font-weight: 300;
+	font-family: 'Satisfy', cursive;
+}
+.date{
+	font-family: 'Orbitron', sans-serif;
+	color: red;
+	font-size: 30px;
+}
+.dhms{
+		font-family: 'Orbitron', sans-serif;
+		font-size: 30px;
+
+}
+.row2{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 20px;
+	color: black;
+	opacity: 1;
+}
+.about{
+
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-family: 'Satisfy', cursive;
+}
+.about-btn{
+	margin-top: 50px;
+}
+
+h1{
+	
+	margin: 0;
+    color: black;
+    width: 100%;
+    font-weight: 800;
+    font-size: 40px;
+   font-family: 'Satisfy', cursive;
+    
+}
+.parallax-listen{
+	background: url("img/listen.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background: transparent;*/
+	height: 300px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.parallax-listen:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.parallax-listen h1{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+}
+.parallax-dream{
+	background: url("img/dream.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.parallax-dream:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.parallax-dream h1{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.parallax-ignite{
+	background: url("img/ignite.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.parallax-ignite:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.parallax-ignite h1{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+
+
+
+
+
+
