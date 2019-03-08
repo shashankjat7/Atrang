@@ -109,7 +109,7 @@ h1{
     
 }
 .parallax-listen{
-	background: url("img/listen.jpg") no-repeat center;
+	background: url("img/listenE.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	/*background: transparent;*/
@@ -134,7 +134,7 @@ h1{
 	padding-top: 80px;
 }
 .parallax-dream{
-	background: url("img/dream.jpg") no-repeat center;
+	background: url("img/dreamE.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 300px;
@@ -160,7 +160,7 @@ h1{
 }
 
 .parallax-ignite{
-	background: url("img/ignite.jpg") no-repeat center;
+	background: url("img/igniteE.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 300px;
