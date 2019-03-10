@@ -48,4 +48,27 @@ $(function(){
   });
 });
 
+//scroll on the click of navbar elements
+
+$("#aboutnav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".row2").offset().top-70},
+        'slow');
+});
+$("#eventsnav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".events").offset().top-70},
+        'slow');
+});
+$("#speakersnav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".carousel").offset().top-70},
+        'slow');
+});
+$("#contactnav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact-row").offset().top-70},
+        'slow');
+});
+
 
