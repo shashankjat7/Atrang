@@ -1,11 +1,23 @@
 //$(".col-md-4").html("hey");
 var currentDate=new Date();
-
+console.log($(window).width());
 //var secs=currentDate.getSeconds();
  showTime();
+var flag=0;
 
 function showTime(){
 	setTimeout(function(){
+    //console.log($(window).width());
+    if(flag==0&&($(window).width()<600)){
+      $("#homelogo").width(150);
+      $("#homelogo").height(150);
+      flag=1;
+    }
+    if(flag==1&&($(window).width()>600)){
+      $("#homelogo").width(250);
+      $("#homelogo").height(250);
+      flag=0;
+    }
 		var currentDate=new Date();
     	$(".date-days").text(35-currentDate.getDate());
     	$(".date-hrs").text(23-currentDate.getHours());
