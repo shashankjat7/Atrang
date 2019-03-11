@@ -1,21 +1,54 @@
-//$(".col-md-4").html("hey");
 var currentDate=new Date();
-console.log($(window).width());
-//var secs=currentDate.getSeconds();
  showTime();
 var flag=0;
 
+//checks at the start for a mobile version
+
+if(flag==0&&($(window).width()<600)){
+      $("#homelogo").width(150);
+      $("#homelogo").height(150);
+      $(".logo").css("width","75px");
+      $(".logo").css("height","75px");
+      $(".navbar").css("height","35px");
+      $(".title").css("font-size","20px");
+      $(".info").css("font-size","15px");
+      $(".infoi").css("margin-left","5px");
+      $(".headh2").css("font-size","25px");
+      $(".date").css("font-size","25px");
+      $(".dhms").css("font-size","25px");
+      flag=1;
+    }
+
 function showTime(){
 	setTimeout(function(){
-    //console.log($(window).width());
+   //mobile adjustments
     if(flag==0&&($(window).width()<600)){
       $("#homelogo").width(150);
       $("#homelogo").height(150);
+      $(".logo").css("width","75px");
+      $(".logo").css("height","75px");
+      $(".navbar").css("height","35px");
+      $(".title").css("font-size","20px");
+      $(".info").css("font-size","15px");
+      $(".infoi").css("margin-left","5px");
+      $(".headh2").css("font-size","25px");
+      $(".date").css("font-size","25px");
+      $(".dhms").css("font-size","25px");
       flag=1;
     }
+    //desktop adjustments
     if(flag==1&&($(window).width()>600)){
       $("#homelogo").width(250);
       $("#homelogo").height(250);
+       $(".logo").css("width","125px");
+      $(".logo").css("height","125px");
+      $(".navbar").css("height","70px");
+      $(".title").css("font-size","30px");
+      $(".info").css("font-size","25px");
+      $(".infoi").css("margin-left","30px");
+      $(".headh2").css("font-size","30px");
+      $(".date").css("font-size","30px");
+      $(".dhms").css("font-size","30px");
       flag=0;
     }
 		var currentDate=new Date();
