@@ -17,6 +17,7 @@ if(flag==0&&($(window).width()<600)){
       $(".date").css("font-size","25px");
       $(".dhms").css("font-size","25px");
       $("#aboutnav").css("display","none");
+      $(".about").css({"padding-left": "30px", "padding-right": "30px"});
       flag=1;
     }
 
@@ -36,6 +37,7 @@ function showTime(){
       $(".date").css("font-size","25px");
       $(".dhms").css("font-size","25px");
       $("#aboutnav").css("display","none");
+      $(".about").css({"padding-left": "30px", "padding-right": "30px"});
       flag=1;
     }
     //desktop adjustments
@@ -52,6 +54,7 @@ function showTime(){
       $(".date").css("font-size","30px");
       $(".dhms").css("font-size","30px");
       $("#aboutnav").css("display","inline");
+      $(".about").css({"padding-left": "25%", "padding-right": "25%"});
       flag=0;
     }
 		var currentDate=new Date();
