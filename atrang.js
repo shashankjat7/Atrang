@@ -16,6 +16,7 @@ if(flag==0&&($(window).width()<600)){
       $(".headh2").css("font-size","25px");
       $(".date").css("font-size","25px");
       $(".dhms").css("font-size","25px");
+      $("#aboutnav").css("display","none");
       flag=1;
     }
 
@@ -34,6 +35,7 @@ function showTime(){
       $(".headh2").css("font-size","25px");
       $(".date").css("font-size","25px");
       $(".dhms").css("font-size","25px");
+      $("#aboutnav").css("display","none");
       flag=1;
     }
     //desktop adjustments
@@ -49,6 +51,7 @@ function showTime(){
       $(".headh2").css("font-size","30px");
       $(".date").css("font-size","30px");
       $(".dhms").css("font-size","30px");
+      $("#aboutnav").css("display","inline");
       flag=0;
     }
 		var currentDate=new Date();
