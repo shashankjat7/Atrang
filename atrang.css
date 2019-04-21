@@ -105,6 +105,9 @@ body{
 	font-weight: 300;
 	font-family: 'Satisfy', cursive;
 }
+#a19{
+	color: red;
+}
 .date{
 	font-family: 'Orbitron', sans-serif;
 	color: red;
@@ -329,7 +332,6 @@ i{
 //==============
 //testing
 //==============
-
 
 
 
